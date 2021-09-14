@@ -26,8 +26,6 @@ body{background-color:#ccc;
      }
 .hero-down {text-align: center;
 margin-top:150px;}
-main{ width: 80%;
-      margin: auto;}
 .sectionid{
     background-color:white;
     padding: 15px;
@@ -57,11 +55,33 @@ footer{
     border: solid 1px white;
     background-color: rgba(0, 0, 0, 0.315)
 }
-.card{
-    display:inline-block;
+.sectionid{
+    background-color:white;
     padding: 10px;
-    background-size: 20%;
-    }
-.hero nav a:hover{
-    background: rgba(0, 0, 0, 0.420);
+    margin-top: 15px;
+    overflow: auto
+    ;
+ }
+.card{
+    float:left;
+    width:32%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;}
+.card img{ 
+    width: 100%;
+    display: block;
 }
+.hero nav a:hover{
+    background: rgba(255, 0, 221, 0.42);
+}
+.card-1, .card-2{margin-right: 2%;}
+main{ width: 80%;
+    margin: auto;}
+main h2{background-color: rgba(0, 0, 0, 0.233);
+     margin: auto;
+     overflow: auto;
+    border-bottom: 1px solid black;
+    
+    }
