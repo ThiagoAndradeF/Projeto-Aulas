@@ -1,0 +1,75 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif
+}
+.principal{ 
+    width: 1024px;
+    margin: 20px auto;
+}
+.header-top{ 
+    background-color:#17313e;
+    width: auto;
+    position: relative;
+}
+.logotipo{ 
+    padding-left: 134px ;
+}
+.navegation-menu{
+    display: inline-block;
+    position: absolute;
+    right:0;
+    top: 0;
+    height: 100%; 
+}
+.navegation-menu ul{
+    margin: 0;
+    padding: 0;
+}
+.navegation-menu li{ 
+    display: inline-block;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 11px;
+    list-style: none;
+    text-align: right;
+    margin:0 15px 0 0;
+}
+.navegation-menu a{ 
+    color: #607985c5;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+.texto-informativo1{ 
+    text-align: center;
+    padding: 50px 100px;
+}
+.texto-informativo1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: #252525;
+}
+.texto-informativo1 p{
+    line-height: 2;
+    color: #555;
+    font-size: 16px;
+}
+.portfolio{ 
+    display: inline-block;
+    padding:10px;
+}
+.portfolio ul{ 
+    list-style: none;
+    
+}
+.portfolio h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:rgb(85, 82, 82);
+    font-size: 17px;
+}
+.portfolio p{ 
+    text-align: center;
+    color: rgb(163, 163, 163);
+    font-size: 15px;
+}
