@@ -1,12 +1,12 @@
 body{ 
-    font-family: Arial, Helvetica, sans-serif
+    font-family: tahoma,Arial
 }
 .principal{ 
     width: 1024px;
     margin: 20px auto;
 }
 .header-top{ 
-    background-color:#17313e;
+    background-color:#003d52;
     width: auto;
     position: relative;
 }
@@ -53,9 +53,17 @@ body{
     color: #555;
     font-size: 16px;
 }
+.galery-cards{
+    width: 32%; 
+    float: left;
+    
+    padding: 5px;
+}
 .portfolio{ 
     display: inline-block;
-    padding:10px;
+    padding-left:0 100px 50px 100px;
+    overflow: auto;
+
 }
 .portfolio ul{ 
     list-style: none;
@@ -72,4 +80,51 @@ body{
     text-align: center;
     color: rgb(163, 163, 163);
     font-size: 15px;
+}
+.texto-informativo2{
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #003d52;
+    padding: 0 50px 100px 50px;
+    width: auto;
+    
+}
+.texto-informativo2 h2{
+    font-size: 46px;
+    color: aliceblue;
+    padding: 100px 50px 0px 50px;
+
+}
+.texto-informativo2 p{
+    font-size: 15px;
+    padding:0 200px 100px 60px ;
+    letter-spacing: 1px;
+    line-height: 2;
+    color: aliceblue;
+}
+address{ 
+    font-size: 20px;
+    font-style:normal;
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+}
+.conteudo{ 
+    text-align: center;  
+}
+}
+.maps{
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    color: blue;
+}
+footer{ 
+    text-align: center;
+    background-color: #003d52;
+    color: blanchedalmond;
+    height: 25px;
+    font-size: 15px ;
+    font-family: tahoma, arial;
 }
