@@ -38,6 +38,11 @@ body{
     text-decoration: none;
     display: inline-block;
     letter-spacing: 3px;
+    transition: color 0.3s linear;
+}
+.navegation-menu a:hover{
+    color: white;
+
 }
 .texto-informativo1{ 
     text-align: center;
@@ -115,10 +120,14 @@ address{
 }
 }
 .maps{
+    display:inline-block;
     text-align: center;
-    width: 100%;
     padding: 15px;
     color: blue;
+}
+.maps iframe{
+    width: 100%;
+    margin-bottom: 30px;
 }
 footer{ 
     text-align: center;
