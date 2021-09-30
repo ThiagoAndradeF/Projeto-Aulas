@@ -131,4 +131,24 @@ sub, sup{
     display: block;
     text-align: center;
 }
+.GTW{
+    overflow: auto;
+}
+.GTW-1{
+    width: 70%;
+    float: left;
+}
+.GTW-2{
+    width: 29%;
+    float:right;
+}
+.formulario-primary{
+    box-sizing: border-box;
+}
+.formulario-primary label,input{
+    display: block;
+}
+.formulario-primary input{
+    background-color:#efefef0c ;
 
+}
