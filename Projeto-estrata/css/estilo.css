@@ -110,9 +110,7 @@ sub, sup{
     display: inline-block;
 }
 .button-default:hover{
-    color: #49bf9d;
-    border: #49bf9d;;
-
+    border:1px solid  #49bf9d;
 }
 .button-default-green{
     background-color: #49bf9d;
@@ -132,6 +130,7 @@ sub, sup{
 .button-default-full{
     display: block;
     text-align: center;
+    margin: 10px 0px;
 }
 .GTW{
     overflow: auto;
@@ -143,9 +142,6 @@ sub, sup{
 .GTW-2{
     width: 29%;
     float:right;
-}
-.formulario-primary{
-    box-sizing: border-box;
 }
 .formulario-primary label,input, textarea{
     display: block;
@@ -193,4 +189,64 @@ table{
 }
 .table tfoot{
     border-top: 1px solid #ccc;
+}
+.recent-works-card{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.imagem-link{
+    border: 0;
+   
+}
+.alongside{
+    display: block;
+}
+.alongside input[type="radio"], input[type="checkbox"], label{
+    display: inline-block;
+
+}
+.gallery-thumb-image{
+    border-radius: 10px; 
+}
+.gallery-img img{
+    margin: 10px 0px;
+    display: block;
+    border-radius: 10px;
+}
+.img-right{
+    float: right;
+    border-radius: 5px;
+    margin: 5px 12px;
+}
+.img-left{
+    float: left;
+    border-radius: 5px;
+    margin: 5px 12px;
+}
+.recent-works-card-title{
+    text-align: left;
+    margin:0px 10px ;
+    font-size: 20px;
+    color: black;
+}
+.recent-works-card-description{
+    text-align: left;
+    margin:0px 10px 20px ;
+}
+.main-header-image-link{
+    border: none;
+}
+.main-header-image{
+    border-radius: 50%;
+}
+.main-header-icons{
+    width: 100%;
+    display: inline-block;
+}
+.icons-header{
+    display: inline-block;
+    font-size: 3em;
+    color:#49bf9d ;
+    border: none;
+    padding:0px 20px;
 }
