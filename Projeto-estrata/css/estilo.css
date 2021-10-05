@@ -42,6 +42,10 @@ pre code{display: block;}
 p{
     margin: 0 0 2em;
 }
+.main-header p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.829);
+}
 .main-header{
     width: 35%;
     height: 100%;
@@ -191,12 +195,10 @@ table{
     border-top: 1px solid #ccc;
 }
 .recent-works-card{
-    border-radius: 10px;
     overflow: hidden;
 }
 .imagem-link{
-    border: 0;
-   
+    border: transparent;
 }
 .alongside{
     display: block;
@@ -243,10 +245,27 @@ table{
     width: 100%;
     display: inline-block;
 }
-.icons-header{
+.icons-footer{
     display: inline-block;
-    font-size: 3em;
-    color:#49bf9d ;
+    font-size: 2.5em;
+    color:rgba(255, 255, 255, 0.63);
     border: none;
     padding:0px 20px;
+    transition: linear 0.5s;
+}
+.icons-footer:hover{
+    color:rgba(255, 255, 255, 0.9);
+    
+}
+.main-footer{
+    position: fixed;
+    bottom:200px;
+    width: 35%;
+    left: 0px;
+    box-sizing: border-box;
+    background-position: top left;
+    background-size: cover;
+    padding:0px 54px 72px;
+    text-align: right;
+
 }
