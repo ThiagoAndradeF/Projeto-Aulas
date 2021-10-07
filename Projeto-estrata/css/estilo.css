@@ -259,7 +259,7 @@ table{
 }
 .main-footer{
     position: fixed;
-    bottom:200px;
+    bottom:5em;
     width: 35%;
     left: 0px;
     box-sizing: border-box;
