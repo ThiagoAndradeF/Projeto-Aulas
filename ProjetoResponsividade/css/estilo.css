@@ -176,15 +176,23 @@ footer{
 }
 @media screen and (min-width: 62.5em){
     .first-section{
-        background: #52305e url(../images/bg_topo_1198x670.jpg) ;
         padding: 6em;
+        background-image:radial-gradient(Closest-corner at 45% 60%, #31103b,
+        transparent), url(../images/bg_topo_1198x670.jpg);
+        background-size: cover;
+        background-position: center center bottom;
+        background-repeat: no-repeat;
     }
 }
 @media screen and (min-width: 74em){
     .first-section{
     padding: 15em;
-    background-image: url(../images/bg_topo_1600x1374.jpg);   
+    background-image:radial-gradient(Closest-corner at 45% 60%, #000000, transparent, url(../images/bg_topo_1600x1374.jpg));
+        background-size: cover;
+        background-position: center center bottom;
+        background-repeat: no-repeat;
     }
+    
     .coll1_4{
         width: 23%;
         display: inline-block;
@@ -199,4 +207,5 @@ footer{
         height: 7em;
         display: block;
     }
+
 }
