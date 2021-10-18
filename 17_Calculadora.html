@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caltuladora</title>
+    <style>
+        #calculator{
+            width: 270px;
+            display: grid;
+            grid-template-columns: repeat(4,[col-start] 60px [col-end]);
+            grid-template-rows: [display-start] 80px [display-end buttonf-start] 60px [buttonf-end buttontw-start]60px[buttontw-end buttonth-start]60px [button-th-end button-fo-start] 60px [button-fo-end button-fi-start] 60px[button-fi-end]; 
+            grid-gap: 10px 10px; 
+            background-image:linear-gradient(rgb(196, 196, 196), rgb(124, 124, 124) );
+            border-radius: 0.5em;
+            margin-left: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px ;
+            
+        }
+        #display{
+            grid-column: col-start/col-end 4;
+            grid-row: display-start/display-end;
+            text-align: right;
+            font-size: 2em;
+            padding: 10px;
+            background-image: radial-gradient(rgb(196, 196, 196), rgb(124, 124, 124) );
+            border-radius: .3em;
+            box-shadow: inset 2px 3px 0 #ccc;
+            
+
+        }
+        button{
+            background-image: linear-gradient(rgb(219, 219, 219), #ccc )
+
+        }
+        button:hover{
+            background: rgb(139, 139, 139);
+        }
+        .zero:hover, .mais:hover{
+            background: rgb(73, 72, 72);
+
+        }
+        .zero{
+            grid-column: col-start 1/ span 2;
+            grid-row:button-fi-start/button-fi-end ;
+            background-image: radial-gradient(rgb(126, 126, 126), rgb(83, 82, 82) );
+            border: solid 2px black;
+        }
+        .mais{
+            grid-column: col-start 4/ col-end 4;
+            grid-row: button-fo-start/span 2;
+            background-image: radial-gradient(rgb(126, 126, 126), rgb(83, 82, 82) );
+            border: solid 2px black;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="calculator">
+       <div id="display">0</div>
+       <button>AC</button><button>%</button><button>X</button><button>/</button>
+       <button>7</button><button>8</button><button>9</button><button>=</button>
+       <button>4</button><button>5</button><button>6</button><button>-</button>
+       <button>1</button><button>2</button><button>3</button>
+       <button class="zero">0</button><button>,</button><button class="mais">+</button>
+    </div>
+</body>
+</html>
